@@ -1,176 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>NakedCircle | Where Real Meets Raw</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Segoe UI', sans-serif;
-      background-color: #e0e0e0;
-      color: #111;
-    }
-
-    header {
-      background-color: #1c1c1c;
-      padding: 20px;
-      text-align: center;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-    }
-
-    header h2 {
-      margin: 0;
-      color: #ffffff;
-      font-size: 2rem;
-      letter-spacing: 2px;
-      font-weight: bold;
-    }
-
-    .hero {
-      text-align: center;
-      padding: 80px 20px;
-      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
-      color: white;
-    }
-
-    .hero h1 {
-      font-size: 3rem;
-      margin-bottom: 20px;
-      font-weight: bold;
-      letter-spacing: 1px;
-    }
-
-    .hero p {
-      font-size: 1.25rem;
-      margin-bottom: 40px;
-      max-width: 700px;
-      margin-left: auto;
-      margin-right: auto;
-      line-height: 1.6;
-      color: #dcdcdc;
-    }
-
-    .buttons {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      gap: 15px;
-    }
-
-    .buttons a {
-      text-decoration: none;
-      padding: 14px 28px;
-      background-color: #0d47a1;
-      color: white;
-      border-radius: 50px;
-      font-size: 1rem;
-      font-weight: 600;
-      transition: all 0.3s ease;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-    }
-
-    .buttons a:hover {
-      background-color: ##f4f4f4;
-      transform: scale(1.05);
-    }
-
-    .features {
-      background-color: ##f4f4f4;
-      padding: 60px 20px;
-      text-align: center;
-      color:0d47a1 ;
-    }
-
-    .features h2 {
-      font-size: 2.5rem;
-      margin-bottom: 20px;
-      font-weight: bold;
-    }
-
-    .feature-list {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      gap: 30px;
-      margin-top: 30px;
-    }
-
-    .feature {
-      width: 250px;
-      background-color: white;
-      padding: 20px;
-      border-radius: 10px;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-      transition: all 0.3s ease;
-    }
-
-    .feature h3 {
-      font-size: 1.5rem;
-      margin-bottom: 15px;
-      color: #0d47a1;
-    }
-
-    .feature p {
-      font-size: 1rem;
-      color: #555;
-    }
-
-    .feature:hover {
-      transform: scale(1.05);
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-    }
-
-    footer {
-      text-align: center;
-      padding: 20px;
-      font-size: 0.9rem;
-      color: #777;
-    }
-  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NakedCircle - Welcome</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <header>
-    <h2>NakedCircle</h2>
-  </header>
+<header>
+  <div class="navbar fade-in">
+    <div class="logo">NakedCircle</div>
+    <nav class="nav-links">
+      <a href="#">Home</a>
+      <a href="blog.html">Blog</a>
+      <a href="#features">Features</a> <!-- fixed -->
+      <a href="join.html" class="join-btn">Join Us</a>
+    </nav>
+  </div>
+</header>
 
-  <section class="hero">
-    <h1>Where Real Meets Raw</h1>
-    <p>The new era of adult content platforms — unapologetically authentic, built for bold creators and passionate fans. Early movers are already earning. Why not you?</p>
-    <div class="buttons">
-      <a href="https://forms.gle/5x4x3j3m5t8RW3GbA">Join Now</a>
-      <a href="https://forms.gle/7nkoEQBACW6vo8fH9">Become a Creator</a>
-      <a href="https://forms.gle/YpLnKHhq7Xkbc5DZ9">Fan Sign-Up</a>
-      <a href="https://forms.gle/RYRV6fHgudbkCAtNA">Join Waitlist</a>
+<section class="hero fade-in">
+  <h1 class="hero-title">NakedCircle</h1>
+  <div class="cta-buttons">
+    <a href="#signup" class="cta-button glow">Sign Up</a>
+    <a href="#learnmore" class="cta-button secondary glow">Learn More</a>
+  </div>
+</section>
+
+<section class="columns-section fade-in">
+  <div class="columns">
+    <div class="column">
+      <h2>Creators First</h2>
+      <p>We put creators at the center of everything. Build your brand your way.</p>
     </div>
-  </section>
-
-  <section class="features">
-    <h2>Why NakedCircle?</h2>
-    <div class="feature-list">
-      <div class="feature">
-        <h3>Authentic Content</h3>
-        <p>Real creators, real fans. Our platform champions raw, unfiltered content that connects creators with their audience.</p>
-      </div>
-      <div class="feature">
-        <h3>Easy to Use</h3>
-        <p>Set up your account and start creating or engaging in just a few simple steps. It’s that easy.</p>
-      </div>
-      <div class="feature">
-        <h3>Creator Friendly</h3>
-        <p>With our flexible monetization options, you can earn money doing what you love. Start earning from day one.</p>
-      </div>
-      <div class="feature">
-        <h3>Privacy First</h3>
-        <p>Your privacy and security are our top priority. Rest easy knowing your personal information is safe.</p>
-      </div>
+    <div class="column">
+      <h2>Freedom to Express</h2>
+      <p>Share your content freely with your fans without limits.</p>
     </div>
-  </section>
+    <div class="column">
+      <h2>Grow Your Circle</h2>
+      <p>Engage, monetize, and connect with your audience like never before.</p>
+    </div>
+  </div>
+</section>
 
-  <footer>
-    &copy; 2025 NakedCircle. All rights reserved.
-  </footer>
+<!-- Features Section -->
+<section class="features-section fade-in" id="features">
+  <h2>Why NakedCircle?</h2>
+  <p>Discover the unique features that make us stand out. Designed for creators, by creators.</p>
+
+  <div class="features-grid">
+    <div class="feature-card fade-in">
+      <h3>Ownership</h3>
+      <p>Full control over your content. Keep what you create, always.</p>
+    </div>
+
+    <div class="feature-card fade-in">
+      <h3>Easy Payments</h3>
+      <p>Get paid quickly and securely with seamless transactions.</p>
+    </div>
+
+    <div class="feature-card fade-in">
+      <h3>Easy Marketing</h3>
+      <p>Built-in tools to help you grow your audience and maximize your earnings.</p>
+    </div>
+
+    <div class="feature-card fade-in">
+      <h3>Privacy Protection</h3>
+      <p>Your content, your privacy. We ensure your data stays safe.</p>
+    </div>
+
+    <div class="feature-card fade-in">
+      <h3>Anti-Piracy Protection</h3>
+      <p>Advanced technology to protect your work from unauthorized sharing.</p>
+    </div>
+  </div>
+</section>
+
+<section class="join-section fade-in" id="signup">
+  <h2>Ready to Join NakedCircle?</h2>
+  <div class="join-buttons">
+    <a href="https://forms.gle/7nkoEQBACW6vo8fH9" class="join-link">Creator Sign Up</a>
+    <a href="https://forms.gle/YpLnKHhq7Xkbc5DZ9" class="join-link secondary">Fan Sign Up</a>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2025 NakedCircle. All rights reserved.</p>
+</footer>
 
 </body>
-</html>
+  </html>
